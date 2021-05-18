@@ -2,14 +2,16 @@ package Exercise;
 
 import java.util.Scanner;
 
-public class Bai_05 {
+public class Bai_05_Bai_Ve_Nha {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Hãy nhập số n:");
-		int n = sc.nextInt();
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("Hãy nhập số n:");
+//		int n = sc.nextInt();
 
-		Show_Prime(n);
+		//Show_Prime(n);
+		Show_Prime(100);
+		
 
 	}
 
