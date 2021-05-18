@@ -34,7 +34,7 @@ public class Bai_08_Mang {
 	    }
 	        
 	    //Hiển thị phần tử tại ví trí index =2	    
-	    System.out.println("Giá trị phần tử lại ví trí index =2 là " + array[2]);
+	    System.out.println("Giá trị phần tử tại ví trí index =2 là " + array[2]);
 	   
 	    
 	    // tính tổng các phần tử có trong mảng
@@ -48,9 +48,10 @@ public class Bai_08_Mang {
 	    	if (array[i] == 0) {
 	    		
 				
-			} else if ((array[i] != 0) && (array[i] % 2 = 0)) {
-				System.out.println(array[i]);
-				System.out.println( "Tổng các số chẵn trong mảng" + sum += array[i]);
+			} else if ((array[i] != 0) && (array[i] % 2 == 0)) {
+				System.out.println("Các số chẵn có trong mảng là: " + array[i]);
+				sum += array[i];
+				System.out.println( "Tổng các số chẵn trong mảng: " + sum);
 				
 			} {
 				
