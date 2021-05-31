@@ -32,5 +32,5 @@ public class Bai_09_For_each {
 	}
 	
 	
-	public 
+	
 }
