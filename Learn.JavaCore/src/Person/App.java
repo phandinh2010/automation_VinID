@@ -1,6 +1,8 @@
-package Thay_Cuong;
+package Person;
 
 import java.time.LocalDate;
+
+import MyMath.Vector;
 
 public class App {
 
@@ -22,7 +24,18 @@ public class App {
 		
 		HardWorkPerson elonMusk = new HardWorkPerson ("Elon", "Musk", LocalDate.of(1972, 11, 02 ));
 		elonMusk.work();
+		
+		Person person2 = new Person("Bill", "Gates", LocalDate.of(1970, 11, 02));
+		
+		if (person.equals(person2)) {
+			System.out.println("Hai đối tượng giống nhau");			
+		} else {
+			System.out.println("Hai đối tượng khác nhau");
+		}
 	}
 	
-	
+	public static void demoMyMath() {
+		Vector vector = new Vector(3,4);
+		System.out.println(vector.x);
+	}
 }
