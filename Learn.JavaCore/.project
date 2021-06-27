@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Learn.JavaCore</name>
+	<name>Learn.JavaCore.Dinh</name>
 	<comment></comment>
 	<projects>
+		<project>hybrid-frameword-wordpress</project>
+		<project>LearnJava</project>
+		<project>MavenProject</project>
+		<project>Selenium_Webdriver</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
